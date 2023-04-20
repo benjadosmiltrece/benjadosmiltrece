@@ -1,0 +1,115 @@
+* {
+  font-family: “Comic Sans MS”, “Comic Sans”, cursive;
+  zoom: 96%;
+  margin: 0;
+}
+
+li {
+  color:black;
+  margin-right: 20px;
+  padding: 15px;
+  background-color: #0CFF00;
+  border-radius: 15%;
+}
+
+ul{
+  margin: auto;
+  padding-top: 5px;
+  color: #0CFF00;
+  padding-bottom: 30px;
+  display: flex;
+  list-style: none;
+}
+
+
+a:link, a:visited {
+  text-decoration: none;
+  color: black;
+  font-size: 150%;
+}
+
+a:link:hover, a:visited:hover {
+  text-decoration: none;
+  color: black;
+  font-size: 150%;
+}
+
+
+.pastilla {
+  position: absolute;
+  opacity: 100%;
+  top: 0;
+  left: 0;
+  scale: 100%;
+  margin-top: 150px;
+}
+.pastillaHover {
+  position: absolute;
+
+  opacity: 0%;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  -ms-transition: opacity 500ms;
+  transition: opacity 500ms;
+
+  top: 0px;
+  left: 0px;
+  scale: 100%;
+  margin-top: 150px;
+}
+
+.pastillaHover:hover {
+  opacity: 100%;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  -ms-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+
+.botones{
+  background-color: #0CFF00;
+  color: white;
+  scale: 1;
+  border-radius: 5px;
+  padding: 0.5% 1% 0.5% 1%;
+  margin: 20px;
+}
+
+#opasBoton {
+  scale: 1.75;
+  margin-left: 46%;
+}
+
+#opasBoton:hover {
+  background-color: #4fff46;
+  scale: 1.85;
+}
+
+body {
+  background-image: url("ankha.png");
+  background-blend-mode:multiply;
+  background-color: rgb(82, 82, 82);
+  background-size: 103%;
+}
+
+.TituloImagen {
+  width: 300px;
+  padding-left: 39%;
+}
+
+header {
+  background-color: #0CFF00;
+}
+
+p {
+  color: #0CFF00;
+  margin-top: 20.5%;
+  margin-left: auto;
+}
+
+@media only screen and (max-width: 768px){
+
+}
